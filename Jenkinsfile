@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'git 'https://github.com/Mouneshgouda/hi.git'
-'
+                git credentialsId: 'github-pat', url: 'https://github.com/Mouneshgouda/hi.git'
             }
         }
         stage('Install Dependencies') {
@@ -20,4 +19,3 @@ pipeline {
         }
     }
 }
- 
