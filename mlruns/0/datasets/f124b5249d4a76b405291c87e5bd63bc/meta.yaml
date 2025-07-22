@@ -1,0 +1,12 @@
+digest: d4b20187
+name: dataset
+profile: '{"num_rows": 200, "num_elements": 1600}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "City", "required": true},
+  {"type": "string", "name": "RoomType", "required": true}, {"type": "long", "name":
+  "Bedrooms", "required": true}, {"type": "long", "name": "Bathrooms", "required":
+  true}, {"type": "long", "name": "GuestsCapacity", "required": true}, {"type": "long",
+  "name": "HasWifi", "required": true}, {"type": "long", "name": "HasAC", "required":
+  true}, {"type": "double", "name": "DistanceFromCityCenter", "required": true}]}'
+source: '{"tags": {"mlflow.user": "LENOVO", "mlflow.source.name": "m.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "6dbed484b7e99782b716c7604ff2600792a812ee"}}'
+source_type: code
